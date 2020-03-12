@@ -59,6 +59,7 @@ git reset --hard 版本号  //回到相应的版本
 git pull
 
 
-
+11.丢弃本地修改
+git checkout -f
 
 
