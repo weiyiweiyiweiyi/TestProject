@@ -55,6 +55,10 @@ git reflog	//查看提交的版本
 git reset --hard 版本号  //回到相应的版本
 
 
+10.从远端分支拉内容覆盖当前的本地分支
+git pull
+
+
 
 
 
