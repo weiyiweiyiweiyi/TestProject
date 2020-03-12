@@ -32,6 +32,17 @@ git clone git@gitlab.com:weiyiweiyiweiyi/automatictest.git
 
 6.创建本地文件，本地分支，将文件和分支提交到本地仓库，推到远端
 先创建一个文件，将其推到远程端后，才可以使用后续的命令；
+git add 文件名	//添加到本地暂存区	
+git rm 文件名	//从暂存区删除
+git commit -m"XXX" 	//提交到本地仓库
+git push 	//将提交到本地仓库的内容提交到远端仓库
+git branch   	//查看本地分支
+git branch 分支名 	//创建本地分支
+git branch -a   	//查看本地和远端分支
+git checkout 分支名	//切换分支
+git branch -d 分支名	//删除本地分支
+git push origin --delete 分支名	 //删除远端分支 
+
 
 
 
