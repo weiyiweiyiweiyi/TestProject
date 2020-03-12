@@ -48,8 +48,11 @@ git push origin --delete 分支名	 //删除远端分支
 
 
 8.合并分支
+git merge 分支名  //将分支名的内容合并到当前分支
 
-
+9.查看提交的版本号，并且回退到指定的版本
+git reflog	//查看提交的版本
+git reset --hard 版本号  //回到相应的版本
 
 
 
