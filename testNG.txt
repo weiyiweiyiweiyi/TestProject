@@ -1,0 +1,90 @@
+1.ecplise 安装testNG插件：https://www.cnblogs.com/nickjiang/p/9208375.html
+
+
+2.Maven项目加入TestNG Library
+
+
+3.注解：@test,@BeforeMethod,@AfterMethod
+@test运行某个类或者方法
+@BeforeMethod,@AfterMethod在每个方法运行的前后都会运行
+
+
+4.@BeforeClass和@AfterClass
+在每个类运行的前后都会运行
+
+
+5.@BeforeSuite和@AfterSuite
+在每个类@BeforeClass和@AfterClass运行的前后都会运行
+
+
+6.@test(enable=false/true)    //忽略测试
+
+
+7.@test(group="")\@Beforegroup(""),@Aftergroup("")
+分组测试在多个方法运行的前后都会运行
+
+
+8.在类前添加@test（group=“”）标注，结合xml文件设置来驱动运行多个类
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="suitename">
+//运行所有的类
+	<test name ="runAll">
+		<classes>
+			<class name ="com.test.Class1"/>
+			<class name ="com.test.Class2"/>
+			<class name ="com.test.Class3"/>
+		</classes>
+	</test>
+	
+//只运行@test(groups="stu")的类
+	<test name="only run stu">
+		<groups>
+			<run>
+				<include name="stu"/>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name ="com.test.Class1"/>
+			<class name ="com.test.Class2"/>
+			<class name ="com.test.Class3"/>
+		</classes>
+	</test>
+	
+</suite>
+
+
+
+9.异常测试：期望结果为抛出异常（exception）才是正确的
+@Test(expectedExceptions = RuntimeException.class)
+
+
+
+
+10.依赖测试：方法A执行成功了才能执行方法B，方法B前加：
+@Test(dependsOnMethods = {"方法名"})
+
+
+11.dataProvider传递参数到方法中
+	@Test(dataProvider ="d")
+	public void para(String name,String age,int id) {
+		System.out.println(name+","+age+","+id);
+	}
+	
+	@DataProvider(name="d")
+	public Object[][] provide(){
+		Object[][] o = {{"a","20",01},{"b","30",02}};
+		return o;
+		
+	}
+
+
+
+11.多线程测试
+@Test(invocationCount=执行总次数,threadPoolSize=线程数)
+
+
+12.超时测试
+@test(timeOut =毫秒数)
+
+
