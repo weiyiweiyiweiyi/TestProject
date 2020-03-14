@@ -1,9 +1,8 @@
 1.下载jar包地址：https://github.com/dreamhead/moco
 
-2.验证是否安装成功：
-运行：java -jar moco-runner-1.1.0-standalone.jar http -p 8899 -c get.json
-moco.json文件需要事先准备好
-浏览器访问地址有返回数据：http://localhost:12306/
+2.moco.json文件配置好相应的方法参数，启动moco服务，可以实现模拟服务器的作用:
+java -jar moco-runner-1.1.0-standalone.jar http -p 8899 -c get.json
+get.json文件需要事先准备好
 
 
-3.moco.json文件配置好相应的方法参数，启动moco服务，可以实现模拟服务器的作用
+
