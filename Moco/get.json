@@ -9,6 +9,26 @@
       "text":"这是无参数的get请求"
     }
   },
+
+
+  {
+    "description":"无参数get请求",
+    "request":{
+      "uri":"/getjson",
+      "method":"get"
+    },
+    "response":{
+      "json":{
+        "hehe":"success",
+        "status":"1",
+	"result":{"city":"chengdu","province":"sichuan"}
+      }
+}
+  },
+
+
+
+
   {
     "description":"带参数get请求",
     "request":{
