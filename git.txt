@@ -31,11 +31,12 @@ git clone git@github.com:weiyiweiyiweiyi/AutoTest.git
 
 
 6.创建本地文件，本地分支，将文件和分支提交到本地仓库，推到远端
-注意：1.先在本地仓库master上创建一个文件，将其推到远程端后，才可以使用后续的命令；
+注意：1.需要在本地仓库的master分支上创建一个文件，将其推到远程端后，git branch后本地master分支才可见，才可以使用后续的命令；
      2.在一个新机器上创建仓库并且把远端的项目clone到该新机器上：
        a.先在文件夹下git init 初始化一个仓库；
-       b.git clone 地址，克隆具体的项目，此处只会克隆到远端master的内容；
-       c.git checkout -b 分支名 origin/分支名
+       b.本地仓库链接远程仓库：git remote add 远程仓库名字(自己取的) 远程仓库地址；
+       c.将远程主机的更新全部取回本地仓库：git fetch 远程仓库名字；
+       d.将远端分支的内容拉到本地对应分支：git checkout -b 本地分支名 远程仓库名字/远端分支名
 
 git add 文件名	//添加到本地暂存区	
 git rm 文件名	//从暂存区删除
