@@ -8,13 +8,10 @@ import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.message.BasicNameValuePair;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.alibaba.fastjson.JSONObject;
 import com.test.client.RestfulClient;
-import com.test.utils.JsonParser;
 
 
 public class testPost {
