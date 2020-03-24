@@ -5,10 +5,12 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 
+import org.testng.annotations.Test;
 
 import com.csvreader.CsvReader;
 
 public class CsvProcess {
+	
 	
 	public static Object[][] readCsv(String path){
 		try {
