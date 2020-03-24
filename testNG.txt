@@ -1,7 +1,9 @@
 1.ecplise 安装testNG插件：https://www.cnblogs.com/nickjiang/p/9208375.html
+https://www.cnblogs.com/xusweeter/p/6559196.html
 
 
-2.Maven项目加入TestNG Library
+2.Maven项目加入TestNG Library（需要下载testng的jar包）或者ecplise的pom文件加上testng的依赖
+https://www.jianshu.com/p/6b658f21b7f2
 
 
 3.注解：@test,@BeforeMethod,@AfterMethod
