@@ -1,41 +1,28 @@
 package com.test.utils;
 
 
-import java.io.IOException;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
-
-import org.testng.annotations.Test;
-
 import com.csvreader.CsvReader;
-
 public class CsvProcess {
 	
 	
-	public static Object[][] readCsv(String path){
+	public Object[][] readCsv(String path){
 		try {
-		ArrayList<String[]> csvFile = new ArrayList<String[]>();
-		CsvReader reader = new CsvReader(path,',',Charset.forName("utf-8"));
-		reader.readHeaders();
-		while(reader.readRecord()) {
-			System.out.println(reader.getRawRecord());
-			csvFile.add(reader.getValues());
-		}
-		reader.close();
-		
-		Object[][] result = new Object[csvFile.size()][csvFile.get(0).length];
-		for(int row = 0;row<csvFile.size();row++) {
-			result[row] = csvFile.get(row);
-		}
-		
-		return result;
-		}catch(IOException e) {
+			ArrayList<String[]> csvList = new ArrayList<String[]>();
+			CsvReader csvFile = new CsvReader(path,',');
+			csvFile.readHeaders(); 	//忽略表头，如果需要表头可注释掉
+			while(csvFile.readRecord()) {   //如果有内容返回true
+				csvList.add(csvFile.getValues());   //把该行返回的String[]存人，一行数据作为该list的一个元素
+			}
+			csvFile.close();
+			Object[][] csvArray = new Object[csvList.size()][csvList.get(0).length]; //创建二位数组，一行数据作为该数组的一个元素
+			for(int i =0;i<csvList.size();i++) {
+				csvArray[i] = csvList.get(i);
+			}	
+			return csvArray;
+		}catch(Exception e){
 			e.printStackTrace();
 		}
-		return null;
-	} 
-	
-	public static void main(String[] args) {
-		readCsv("/Users/weiyi/eclipse-workspace/test2/com.auto/src/test/resources/Case.csv");
+			return null;	
 	}
 }

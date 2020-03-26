@@ -2,10 +2,11 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -28,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
               <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -47,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
                     <span>testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -100,8 +101,8 @@
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.utils.CsvProcess" hash-for-method="processCsv">processCsv</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.test.utils.CsvProcess" class="method navigator-link" hash-for-method="readCsv">readCsv</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -124,9 +125,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="processCsv">
-                  </a> <!-- processCsv -->
-                  <span class="method-name">processCsv</span>
+                  <a name="readCsv">
+                  </a> <!-- readCsv -->
+                  <span class="method-name">readCsv</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,14 +135,14 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse-1947130532/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/x7/688mnw694_51gwy8r6cqd9r40000gn/T/testng-eclipse-491748817/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.test.utils.CsvProcess&quot;/&gt;
     &lt;/classes&gt;
@@ -185,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'processCsv')
+data.setCell(0, 1, 'readCsv')
 data.setCell(0, 2, 'com.test.utils.CsvProcess')
-data.setCell(0, 3, 10);
+data.setCell(0, 3, 15);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 ms</span>
+              <span class="suite-total-time">Total running time: 15 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -220,7 +221,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.utils.CsvProcess</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">processCsv</span>
+                <span class="method-name">readCsv</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

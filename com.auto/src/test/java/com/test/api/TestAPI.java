@@ -2,7 +2,6 @@ package com.test.api;
 
 import java.io.FileInputStream;
 import java.util.Properties;
-import org.testng.annotations.Test;
 
 
 public class TestAPI {
@@ -10,8 +9,7 @@ public class TestAPI {
 	String host;
 	String testDatePath;
 	
-	@Test
-	public  TestAPI() {
+	public TestAPI() {
 		try {
 			//数据流的形式读取配置文件
 			Properties prop = new Properties();

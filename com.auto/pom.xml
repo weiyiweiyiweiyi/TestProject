@@ -4,15 +4,20 @@
   <artifactId>com.auto</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+     <!--解决编码问题-->
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
       <dependency>
          <groupId>org.testng</groupId>
          <artifactId>testng</artifactId>
-         <version>6.11</version>
-         <scope>test</scope>
+         <version>7.1.0</version>
       </dependency>
   </dependencies>
+
 
 
 </project>
