@@ -8,11 +8,13 @@ import com.alibaba.fastjson.JSONObject;
 public class JsonParser {
 	JSONObject internal;
 	
-	public String jsonValue(JSONObject jo) {     //将响应转成的json对象作为参数
+	public boolean jsonValue(JSONObject jo,String actualResult,String expectResult) {     //将响应转成的json对象作为参数
 	 	JSONObject internal = jo.getJSONObject("result");   //取key为“result”的value值，该值为一个json对象
-	 	String cityvalue = internal.getString("city");		//取key为“city”的value的值，并将其转为String类型
-		return cityvalue;
-		
+	 	String checkpoint = internal.getString(actualResult);		//取key为“city”的value的值，并将其转为String类型
+		if(checkpoint.equals(expectResult)) {
+			return true;
+		}else {
+			return false;
+		}	
 	}
-
 }
