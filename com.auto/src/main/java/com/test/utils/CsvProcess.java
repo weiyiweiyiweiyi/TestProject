@@ -6,7 +6,7 @@ import com.csvreader.CsvReader;
 public class CsvProcess {
 	
 	
-	public Object[][] readCsv(String path){
+	public static Object[][] readCsv(String path){
 		try {
 			ArrayList<String[]> csvList = new ArrayList<String[]>();
 			CsvReader csvFile = new CsvReader(path,',');
