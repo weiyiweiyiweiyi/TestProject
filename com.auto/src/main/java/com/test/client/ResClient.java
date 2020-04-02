@@ -17,10 +17,11 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 
-public class RestfulClient {
+public class ResClient {
 	
 	//定义请求，参数、客户端，响应,响应码,响应头等变量
 	HttpGet requestGet;

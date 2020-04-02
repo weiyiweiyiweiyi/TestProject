@@ -11,12 +11,12 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.test.client.RestfulClient;
+import com.test.client.ResClient;
 
 
 public class testPost {
 	String urlTest="http://127.0.0.1:8899/postp";
-	RestfulClient clientTest;
+	ResClient clientTest;
 	List<NameValuePair> param;
 	int responseCodeTest;
 	String stringResponseTest;
@@ -29,7 +29,7 @@ public class testPost {
 	
 	@BeforeMethod
 	public void beforeTest() throws ClientProtocolException, IOException {
-		clientTest = new RestfulClient();
+		clientTest = new ResClient();
 		
 		//构造forms形式的参数，用list实现
 		List <NameValuePair> param = new ArrayList <NameValuePair>();

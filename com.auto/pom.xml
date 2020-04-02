@@ -11,7 +11,7 @@
   
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-     <dependency>
+    <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>7.1.0</version>
@@ -26,7 +26,7 @@
 	<dependency>
     	<groupId>org.apache.httpcomponents</groupId>
     	<artifactId>httpclient</artifactId>
-    	<version>4.1.1</version>
+    	<version>4.5.10</version>
 	</dependency>
 	
 	<dependency>
