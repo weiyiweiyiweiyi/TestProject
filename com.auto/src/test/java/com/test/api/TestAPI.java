@@ -20,10 +20,4 @@ public class TestAPI {
 			e.printStackTrace();
 		}
 	}
-	
-	
-//	public static void main(String[] args) {
-//		TestAPI t = new TestAPI();
-//		System.out.println(t.host);
-//	}
 }
