@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-02T15:57:45 CST" name="Default suite" finished-at="2020-04-02T15:57:45 CST" duration-ms="532">
+  <suite started-at="2020-04-07T15:31:09 CST" name="Default suite" finished-at="2020-04-07T15:31:11 CST" duration-ms="1759">
     <groups>
     </groups>
-    <test started-at="2020-04-02T15:57:45 CST" name="Default test" finished-at="2020-04-02T15:57:45 CST" duration-ms="532">
+    <test started-at="2020-04-07T15:31:09 CST" name="Default test" finished-at="2020-04-07T15:31:11 CST" duration-ms="1759">
       <class name="com.test.api.testGet">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.api.testGet@2ed0fbae]" started-at="2020-04-02T15:57:45 CST" name="beforeClass" finished-at="2020-04-02T15:57:45 CST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.api.testGet@c730b35]" started-at="2020-04-07T15:31:09 CST" name="beforeClass" finished-at="2020-04-07T15:31:09 CST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TestRequest()[pri:0, instance:com.test.api.testGet@2ed0fbae]" started-at="2020-04-02T15:57:45 CST" name="TestRequest" finished-at="2020-04-02T15:57:45 CST" duration-ms="480" status="PASS">
+        <test-method signature="TestRequest()[pri:0, instance:com.test.api.testGet@c730b35]" started-at="2020-04-07T15:31:09 CST" name="TestRequest" finished-at="2020-04-07T15:31:11 CST" duration-ms="1672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestRequest -->
