@@ -6,8 +6,8 @@ import java.util.Properties;
 
 public class TestAPI {
 	Properties prop;
-	protected String host;
-	protected String testDatePath;
+	String host;
+	String testDatePath;
 	
 	public TestAPI() {
 		try {
