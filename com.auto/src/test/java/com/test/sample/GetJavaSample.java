@@ -30,6 +30,7 @@ public class GetJavaSample extends AbstractJavaSamplerClient {
 		
 		// jmeter 开始统计响应时间标记,定义一个事务，表示这是事务的起始点
 		samplerResult.sampleStart();
+		samplerResult.setSampleLabel("testget");
 		
 		// 测试具体的执行代码
 		testGet test = new testGet();
@@ -39,6 +40,7 @@ public class GetJavaSample extends AbstractJavaSamplerClient {
 			// 将结果写到jmeter里面
 			if (test.resultFlag) {
 				samplerResult.setSuccessful(true);
+				samplerResult.setResponseCode("200");
 				samplerResult.setResponseMessage("Pass");
 			} else {
 				samplerResult.setSuccessful(false);

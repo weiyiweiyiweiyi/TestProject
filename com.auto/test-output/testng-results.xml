@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-08T10:02:55 CST" name="Default suite" finished-at="2020-04-08T10:02:56 CST" duration-ms="1087">
+  <suite name="Default suite" duration-ms="1681" started-at="2020-04-08T13:48:43Z" finished-at="2020-04-08T13:48:44Z">
     <groups>
     </groups>
-    <test started-at="2020-04-08T10:02:55 CST" name="Default test" finished-at="2020-04-08T10:02:56 CST" duration-ms="1087">
+    <test name="Default test" duration-ms="1681" started-at="2020-04-08T13:48:43Z" finished-at="2020-04-08T13:48:44Z">
       <class name="com.test.api.testGet">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.api.testGet@206a70ef]" started-at="2020-04-08T10:02:55 CST" name="beforeClass" finished-at="2020-04-08T10:02:55 CST" duration-ms="14" status="PASS">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.api.testGet@1593948d]" name="beforeClass" is-config="true" duration-ms="17" started-at="2020-04-08T21:48:43Z" finished-at="2020-04-08T21:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="run()[pri:0, instance:com.test.api.testGet@206a70ef]" started-at="2020-04-08T10:02:55 CST" name="run" finished-at="2020-04-08T10:02:56 CST" duration-ms="1036" status="PASS">
+        <test-method status="PASS" signature="run()[pri:0, instance:com.test.api.testGet@1593948d]" name="run" duration-ms="1645" started-at="2020-04-08T21:48:43Z" finished-at="2020-04-08T21:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
