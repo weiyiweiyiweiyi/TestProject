@@ -5,7 +5,7 @@ import org.apache.jmeter.protocol.java.sampler.AbstractJavaSamplerClient;
 import org.apache.jmeter.protocol.java.sampler.JavaSamplerContext;
 import org.apache.jmeter.samplers.SampleResult;
 import com.test.api.testGet;
-
+import java.io.IOException;
 public class GetJavaSample extends AbstractJavaSamplerClient {
 
 	public static void main(String[] args) {
@@ -25,6 +25,7 @@ public class GetJavaSample extends AbstractJavaSamplerClient {
 
 	@Override
 	public SampleResult runTest(JavaSamplerContext arg0) {
+		System.out.println(System.getProperty("user.dir"));
 		// 创建SampleResult类对象，用于记录执行结果并返回
 		SampleResult samplerResult = new SampleResult();
 		
