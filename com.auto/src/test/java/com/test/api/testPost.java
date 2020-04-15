@@ -1,5 +1,7 @@
 package com.test.api;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +25,8 @@ public class testPost {
 	
 	@Test
 	public void testAssert() {
-		Assert.assertEquals(responseCodeTest, 200);
-		Assert.assertEquals(stringResponseTest,"带参数post请求");
+		AssertJUnit.assertEquals(responseCodeTest, 200);
+		AssertJUnit.assertEquals(stringResponseTest,"带参数post请求");
 	}
 	
 	@BeforeMethod

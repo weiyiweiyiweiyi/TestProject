@@ -1,5 +1,8 @@
 package com.test.api;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.http.client.ClientProtocolException;
@@ -31,10 +34,11 @@ public class testGet extends TestAPI {
 	public void run() throws Exception {
 		TestRequest();
 		// 断言响应中的响应码和响应中的值
-		Assert.assertEquals(responseCodeTest, 200);
-		Assert.assertTrue(resultFlag);
+		AssertJUnit.assertEquals(responseCodeTest, 200);
+		AssertJUnit.assertTrue(resultFlag);
 	}
 
+	
 	public void TestRequest() throws ClientProtocolException, IOException {
 		// 从二维数组里面读取数据：path，checkPoint，expectResult
 		boolean flag = true;

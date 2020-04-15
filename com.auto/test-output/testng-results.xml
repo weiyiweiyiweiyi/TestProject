@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2312" started-at="2020-04-13T04:30:59Z" finished-at="2020-04-13T04:31:01Z">
+  <suite name="Suite" duration-ms="1741" started-at="2020-04-15T03:55:18Z" finished-at="2020-04-15T03:55:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2312" started-at="2020-04-13T04:30:59Z" finished-at="2020-04-13T04:31:01Z">
+    <test name="Test" duration-ms="1741" started-at="2020-04-15T03:55:18Z" finished-at="2020-04-15T03:55:20Z">
       <class name="com.test.api.testGet">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.api.testGet@6d2a209c]" name="beforeClass" is-config="true" duration-ms="22" started-at="2020-04-13T12:30:59Z" finished-at="2020-04-13T12:30:59Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.api.testGet@6d2a209c]" name="beforeClass" is-config="true" duration-ms="37" started-at="2020-04-15T11:55:18Z" finished-at="2020-04-15T11:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="run()[pri:0, instance:com.test.api.testGet@6d2a209c]" name="run" duration-ms="2215" started-at="2020-04-13T12:30:59Z" finished-at="2020-04-13T12:31:01Z">
+        <test-method status="PASS" signature="run()[pri:0, instance:com.test.api.testGet@6d2a209c]" name="run" duration-ms="1690" started-at="2020-04-15T11:55:18Z" finished-at="2020-04-15T11:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
       </class> <!-- com.test.api.testGet -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
