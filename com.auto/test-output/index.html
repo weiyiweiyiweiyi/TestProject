@@ -141,7 +141,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;none&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.test.api.testGet&quot;/&gt;
     &lt;/classes&gt;
@@ -187,7 +187,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'run')
 data.setCell(0, 2, 'com.test.api.testGet')
-data.setCell(0, 3, 1690);
+data.setCell(0, 3, 1224);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -225,7 +225,7 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">run</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
