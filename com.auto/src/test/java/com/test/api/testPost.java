@@ -9,10 +9,7 @@ import java.util.List;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.message.BasicNameValuePair;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
 import com.test.client.ResClient;
 
 

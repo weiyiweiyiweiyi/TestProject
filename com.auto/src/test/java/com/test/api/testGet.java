@@ -6,10 +6,6 @@ import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.http.client.ClientProtocolException;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-
 import com.alibaba.fastjson.JSONObject;
 import com.test.client.ResClient;
 import com.test.utils.CsvProcess;
