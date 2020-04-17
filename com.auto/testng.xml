@@ -6,4 +6,10 @@
       <class name="com.test.api.testGet"/>
     </classes>
   </test> <!-- Test -->
+  
+  <!--配置监听器用于extentreport-->
+  <listeners>
+       <listener class-name="com.test.extentReport.ExtentTestNGIReporterListener" />
+  </listeners>
+  
 </suite> <!-- Suite -->

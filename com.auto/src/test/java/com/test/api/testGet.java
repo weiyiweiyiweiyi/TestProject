@@ -27,7 +27,7 @@ public class testGet extends TestAPI {
 	}
 
 	@Test
-	public void run() throws Exception {
+	public void testGetWithoutParam() throws Exception {
 		TestRequest();
 		// 断言响应中的响应码和响应中的值
 		AssertJUnit.assertEquals(responseCodeTest, 200);
