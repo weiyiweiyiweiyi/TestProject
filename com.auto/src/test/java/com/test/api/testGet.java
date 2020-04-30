@@ -39,6 +39,7 @@ public class testGet extends TestAPI {
 		// 从二维数组里面读取数据：path，checkPoint，expectResult
 		boolean flag = true;
 		for (int i = 0; i < csvData.length; i++) {
+			System.out.println(csvData.length);
 			String pathTest = csvData[i][2].toString();
 			urlTest = host + pathTest;
 			String checkPointTest = csvData[i][3].toString();
