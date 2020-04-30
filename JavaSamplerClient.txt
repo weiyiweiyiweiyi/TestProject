@@ -1,0 +1,35 @@
+1.Eclipse添加jmeter的jar包(JMeter_java.jar)，继承这个包的AbstractJavaSamplerClient类，重写4个方法：
+	1.getDefaultParameters 方法主要用于设置传入界面的参数；  PS：jar包(JMeter_core.jar)
+	2.setupTest 方法为初始化方法，用于在执行测试前的一些初始化工作；
+	3.runTest 方法为性能测试时的线程运行主体，执行的业务都放在该方法中； 
+ 	   	PS：请求和响应写成了一个方法，在这里被调用
+		       该方法内需要定义一个事务，用sampleStart()和sampleEnd()来区分
+	4.teardownTest 方法为测试结束方法，可以用来进行一些资源释放工作；
+	5.判断返回的结果并将其打印到jmeter中：samplerResult.setSuccessful(true);
+							 samplerResult.setResponseMessage("Pass");
+
+2.（httpclient.jar）的HttpClient接口及其实现类CloseableHttpClient和CloseableHttpResponse写请求方法和拿到响应，用test NG做断言
+得到响应code
+响应内容
+响应头
+
+
+第二步是实现Http接口的自动化，第二步结合第一步可以实现一个jmeter的java Sampler，从而可以在jmeter上做性能
+
+
+PS :
+打包的jar包放到jmeter的lib-ext文件夹
+Fastjson和javacsv的jar包放到jmeter的lib文件夹         /Users/weiyi/apache-jmeter-5.1.1/lib
+resource资源放到jmeter的bin目录 
+jmeter非GUI使用教程https://www.jianshu.com/p/bd9b59a7a00f
+
+
+
+
+httpClient使用流程：
+1. 创建HttpClient对象。
+2. 创建请求方法的实例，并指定请求URL。如果需要发送GET请求， 创建HttpGet对象； 如果需要发送POST请求，创建HttpPost对象。
+3. 如果需要发送请求参数， 可调用HttpGet、 HttpPost共同的setParams(HttpParams params)方法来添加请求参数； 对于HttpPost对象而言，也可调用setEntity(HttpEntity entity)方法来设置请求参数。
+4. 调用HttpClient对象的execute(HttpUriRequest request)发送请求该方法返回一个HttpResponse。
+5. 调用HttpResponse的getAllHeaders()、 getHeaders(String name)等方法可获取服务器的响应头； 调用HttpResponse的getEntity()方法可获取HttpEntity对象，该对象包装了服务器的响应内容。 程序可通过该对象获取服务器的响应内容。
+6. 释放连接。 无论执行方法是否成功， 都必须释放连接。

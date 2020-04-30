@@ -1,0 +1,23 @@
+1.pom文件加extentreport的依赖包
+	<dependency>
+    	<groupId>com.relevantcodes</groupId>
+    	<artifactId>extentreports</artifactId>
+   	 	<version>2.40</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>com.vimalselvam</groupId>
+    	<artifactId>testng-extentsreport</artifactId>
+    	<version>1.3.1</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>com.aventstack</groupId>
+    	<artifactId>extentreports</artifactId>
+    	<version>3.0.6</version>
+	</dependency>
+
+
+2.testng.xml配置监听器
+
+3.增加类com.test.extentReport.ExtentTestNGIReporterListener

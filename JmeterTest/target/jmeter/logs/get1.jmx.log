@@ -1,0 +1,57 @@
+2020/04/22 16:36:33 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: Loading system properties from: /Users/weiyi/eclipse-workspace/test2/JmeterTest/target/jmeter/bin/system.properties 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: java.version=1.8.0_191 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: os.arch=x86_64 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: os.version=10.13.6 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: Max memory     =514850816 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: Available Processors =4 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: JMeterHome=/Users/weiyi/eclipse-workspace/test2/JmeterTest/target/jmeter 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: user.dir  =/Users/weiyi/eclipse-workspace/test2/JmeterTest/target/jmeter/bin 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: PWD       =/Users/weiyi/eclipse-workspace/test2/JmeterTest/target/jmeter/bin 
+2020/04/22 16:36:33 INFO  - jmeter.JMeter: IP: 192.168.2.1 Name: weiyideiMac.local FullName: 192.168.2.1 
+2020/04/22 16:36:33 INFO  - jmeter.services.FileServer: Default base='/Users/weiyi/eclipse-workspace/test2/JmeterTest/target/jmeter/bin' 
+2020/04/22 16:36:33 INFO  - jmeter.services.FileServer: Set new base='/Users/weiyi/eclipse-workspace/test2/JmeterTest/target/jmeter/testFiles' 
+2020/04/22 16:36:33 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2020/04/22 16:36:33 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2020/04/22 16:36:33 INFO  - jmeter.save.SaveService: Using SaveService properties version 5.0 
+2020/04/22 16:36:33 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 5.0. 
+2020/04/22 16:36:33 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2020/04/22 16:36:33 INFO  - jmeter.save.SaveService: Loading file: /Users/weiyi/eclipse-workspace/test2/JmeterTest/target/jmeter/testFiles/get1.jmx 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2020/04/22 16:36:34 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2020/04/22 16:36:34 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2020/04/22 16:36:34 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2020/04/22 16:36:34 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2020/04/22 16:36:34 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2020/04/22 16:36:34 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2020/04/22 16:36:34 INFO  - jmeter.JMeter: 正在运行的测试 (1587544594255) 
+2020/04/22 16:36:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组 
+2020/04/22 16:36:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 线程组. 
+2020/04/22 16:36:34 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2020/04/22 16:36:34 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2020/04/22 16:36:34 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2020/04/22 16:36:34 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2020/04/22 16:36:34 INFO  - jmeter.threads.JMeterThread: Thread started: 线程组 1-1 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = weiyideiMac.local 
+2020/04/22 16:36:34 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2020/04/22 16:36:34 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2020/04/22 16:36:34 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to UTF-8 
+2020/04/22 16:36:34 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2020/04/22 16:36:34 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2020/04/22 16:36:34 INFO  - jmeter.reporters.Summariser: summary +      1 in 00:00:00 =    3.0/s Avg:   149 Min:   149 Max:   149 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2020/04/22 16:36:34 INFO  - jmeter.threads.JMeterThread: Thread is done: 线程组 1-1 
+2020/04/22 16:36:34 INFO  - jmeter.threads.JMeterThread: Thread finished: 线程组 1-1 
+2020/04/22 16:36:34 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2020/04/22 16:36:34 INFO  - jmeter.reporters.Summariser: summary =      1 in 00:00:00 =    3.0/s Avg:   149 Min:   149 Max:   149 Err:     0 (0.00%) 

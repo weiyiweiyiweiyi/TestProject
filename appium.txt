@@ -1,0 +1,4 @@
+1.安装
+JDK1.8
+androidSDK
+android模拟器
