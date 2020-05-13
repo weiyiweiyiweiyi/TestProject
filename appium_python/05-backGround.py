@@ -8,8 +8,8 @@ desire=dict()
 desire['platformName']='android'
 desire['platformVersion']='7'
 desire['deviceName']='androidDevice'
-desire['appPackage']='com.taobao.taobao'
-desire['appActivity']='com.taobao.tao.TBMainActivity'
+desire['appPackage']='cn.com.nbd.nbdmobile'
+desire['appActivity']='.activity.SplashActivity'
 
 driver=webdriver.Remote('http://localhost:4723/wd/hub',desire)
 time.sleep(2)

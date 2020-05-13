@@ -11,7 +11,7 @@ desired['platformName']='Android'
 desired['platformVersion']='7'
 desired['deviceName']='androidDevice'
 desired['appPackage']='cn.com.nbd.nbdmobile'
-desired['appActivity']='.activity.MainActivity'
+desired['appActivity']='.activity.SplashActivity'
 
 driver=webdriver.Remote('http://localhost:4723/wd/hub',desired)
 time.sleep(3)

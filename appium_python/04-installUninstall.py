@@ -9,14 +9,14 @@ desire=dict()
 desire['platformName']='android'
 desire['platformVersion']='7'
 desire['deviceName']='androidDevice'
-desire['appPackage']='com.taobao.taobao'
-desire['appActivity']='com.taobao.tao.TBMainActivity'
+desire['appPackage']='com.android.settings'
+desire['appActivity']='com.oppo.settings.SettingsActivity'
 
 driver=webdriver.Remote('http://localhost:4723/wd/hub',desire)
 
 if driver.is_app_installed('cn.com.nbd.nbdmobile'):
     driver.remove_app('cn.com.nbd.nbdmobile')  #卸载app
 else:
-    driver.install_app('/Users/weiyi/Downloads/app-nbd-release.apk')  #安装app
+    driver.install_app('/Users/weiyi/Downloads/app-nbd-release(http).apk')  #安装app
 
 driver.quit()
