@@ -1,0 +1,12 @@
+1.requests：接口HttpUriRequest，可用HttpGet或者HttpPost实现；
+2.client：CloseableHttpClient=HttpClients.createDefault()实现；
+3.response：CloseableHttpResponse=client.execute(方法，参数)；
+4.response的方法直接取响应码；
+5.response转为HttpEntity对象，用EntityUtils类的to String方法将其转为String，对String做处理（转为jason或者解析String来断言）
+6.response转为Header数组对象，将其转为map，对map的值做断言
+
+
+
+PS：
+1.获取cookies：client.getCookiesStore().getCookes();
+2.客户端带上cookies去请求，client.setCookiesStore(cookies的值);

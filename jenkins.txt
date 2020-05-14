@@ -1,0 +1,17 @@
+1.安装JDK(8或者11)：https://blog.csdn.net/xuaba/article/details/92832730
+java -version  
+2.安装mvn：https://jingyan.baidu.com/article/ad310e80138a241849f49eb8.html       
+mvn -version
+3.安装tomcat：https://blog.csdn.net/the_only_lym/article/details/81134016
+4.启动Jenkins：java -jar jenkins.war
+5.浏览器地址打开：ip地址:8080
+6.admin  123456
+
+
+7.mvn的project的pom.xml文件要加maven-surefire-plugin插件和suiteXmlFile（testng.xml）文件，testng.xml要配置好执行哪个类，Jenkins构建时才能找到
+8.Jenkins构建自由风格项目，配置git账户
+9.构建excute shell：
+pwd  // /Users/weiyi/.jenkins/workspace/test
+cd com.auto  //进入Jenkins的含有java包的目录
+pwd	/Users/weiyi/.jenkins/workspace/test/com.auto
+mvn clean test

@@ -1,0 +1,46 @@
+[
+  {
+    "description":"无参数get请求",
+    "request":{
+      "uri":"/get",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是无参数的get请求"
+    }
+  },
+
+
+  {
+    "description":"无参数get请求",
+    "request":{
+      "uri":"/getjson",
+      "method":"get"
+    },
+    "response":{
+      "json":{
+        "hehe":"success",
+        "status":"1",
+	"result":{"city":"chengdu","province":"sichuan"}
+      }
+}
+  },
+
+
+
+
+  {
+    "description":"带参数get请求",
+    "request":{
+      "uri":"/getp",
+      "method":"get",
+      "queries":{
+        "name":"hehe",
+        "age":"20"
+      }
+    },
+    "response":{
+      "text":"带参数get请求"
+    }
+  }
+]
