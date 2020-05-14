@@ -1,3 +1,0 @@
-Test No,Test Name,path,checkpoint,expectResult
-1,case1,getjson,city,chengdu
-2,case2,getjson,province,sichuan
