@@ -1,0 +1,248 @@
+1.安装
+ JDK1.8
+ androidSDK：
+	1.直接把含有sdk的文件夹放到响应的路径下（/Users/weiyi/android-sdk）（百度搜索关键字adt-bundle-（linux/Mac）下载）
+	2./Users/weiyi/.bash_profile,在这个文件里配置环境变量如下：
+	export ANDROID_HOME=/Users/weiyi/android-sdk
+	export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+	export PATH=${PATH}:${ANDROID_HOME}/tools
+	export PATH=${PATH}:${ANDROID_HOME}/build-tools/android-4.4W
+
+ android模拟器:
+	1.安装夜神模拟器，使用adb connect 127.0.0.1:62001指令链接模拟器
+
+
+
+
+
+
+2.adb（调试工具，client，server，daemon三部分组成）
+
+adb connect 127.0.0.1:62001      ---- 连接本机模拟器
+
+adb shell dumpsys window windows | grep mFocusedApp				---- 获取包名和界面名（需打开app执行）
+
+adb push 源文件路径 目标移动设备文件夹路径	----将电脑文件传输到移动设备
+eg：adb push /Users/weiyi/Desktop/android.txt /storage/emulated/0/testFile  	
+
+adb pull 源文件路径 目标电脑文件夹路径	----将移动设备文件传输到电脑
+eg：adb pull /storage/emulated/0/testFile/android.txt  /Users/weiyi/Desktop 	
+
+adb shell am start -w 包名/界面名			----获取app启动时间(WaitTime)
+eg：adb shell am start -W cn.com.nbd.nbdmobile/.activity.SplashActivity
+
+adb logcat   ---获取手机日志(先输入命令再操作，日志会打印响应的操作。PS：“at”前第一个字符是E的是错误信息)
+
+adb install apk文件路径   ----安装apk文件
+
+adb uninstall  包名	----卸载apk文件
+
+adb devices  	----获取当前电脑连接的设备和对应的设备号
+
+adb shell 进入到安卓手机的linux环境中(退出用exit)
+
+adb kill-server     ----重启adb服务，先关闭再启动
+adb start-server
+
+
+
+3.Appium
+下载安装applium
+python3安装Appium-Python-Client：pip install Appium-Python-Client
+//*[@id='kw']
+//*[@class='class_name']
+//*[@name='name']
+
+ 3.1 启动一个app：1.打开待测app；2.使用adb命令获取包名和界面名；3.修改desired_caps的相应参数
+ 3.2 启动跳转到其他的app：driver.start('包名','界面名')
+ 3.3 获取当前app的包名和界面名：driver.current_package、driver.current_activity
+ 3.4 关闭app和关闭driver驱动：driver.close_app()、driver.quit()
+ 3.5 安装以及卸载app：driver.install_app('安装路径')、driver.remove_app('卸载包名')
+ 3.6 将app置于后台一段时间再回到前台:driver.background_app(时间)
+ 3.7 定位一个元素：driver.find_element_by_id()、driver.find_element_by_class_name()、driver.find_element_by_xpath()
+ 3.8 定位一组元素：driver.find_elements_by_id()、driver.find_elements_by_class_name()、driver.find_elements_by_xpath()
+ 3.9 点击，输入，清空：element.click(),element.send_keys(),element.clear()
+ 3.10 获取元素的文本内容、位置(坐标)、大小（ 宽高）：element.text、element.location、element.size
+ 3.11 获取元素的属性值：element.get_attribute("属性名")
+ 3.12 滑动和拖拽：driver.swipe(sx,sy,ex,ey，time)、scroll(起始元素，结束元素)（有惯性）、drag_and_drop(起始元素，结束元素)（无惯性）
+ 3.13 隐式等待（全局），显示等待（一个元素）：driver.implicitly_wait(时间)、WebDriverWait()
+
+ 3.14 TouchAction
+   轻敲\点击：TouchAction(driver).tap(element\坐标).perform()
+   按下(不抬起)和抬起：TouchAction(driver).press(element\坐标).perform()、TouchAction(driver).press(element\坐标).release().perform()
+   等待：TouchAction(driver).press(element\坐标).wait(时间).release().perform()
+   长按(相当于按下等待抬手=上一步的等待)：TouchAction(driver).long_press(element\坐标,duration=时间).perform()
+   移动(可以增加多个move_to)：TouchAction(driver).press(element\坐标).move_to(坐标).release().perform()、TouchAction(driver).press(element\坐标).move_to(坐标).move_to(坐标).release().perform()
+   
+   3.15 获取手机分辨率(可以根据当前屏幕的分辨率来计算不同设备的坐标)：driver.get_window_size()
+   3.16 获取手机截图：driver.get_screenshot_as_file(绝对路径/文件名)
+   3.17 获取和设置网络状态：driver.network_connection\driver.set_network_connection(数字1——6)
+   3.18 发送键到设备(https://www.cnblogs.com/xiaowenshu/p/10012794.html)：driver.press_keycode(keycode)
+   3.19 打开和关闭通知栏：driver.open_notifications()、点击返回键关闭
+
+
+
+
+
+
+
+
+
+
+----------------ios部分-----------------------------------------------
+
+滑动一次或者两次：driver.execute_script("mobile:swipe",{"direction":"up"})、driver.execute_script("mobile:scroll",{"direction":"down"})
+
+
+
+
+
+----------------seliunm部分-----------------------------------------------
+1.安装selinum客户端：pip install selenium
+2.下载火狐浏览器驱动，需要对应浏览器的版本号：brew install geckodriver
+
+Css selector
+find_element_by_css_selector('.class')
+
+find_element_by_css_selector('tag')
+find_element_by_css_selector('tag1'，'tag2')
+find_element_by_css_selector('.class'>'tag1'，'.class'>'tag2')
+
+find_element_by_css_selector('#id')
+
+find_element_by_css_selector(‘[属性名=“属性值”]’)
+
+find_element_by_css_selector(.class/tag/#id‘[属性名=“属性值”]’)
+
+find_element_by_css_selector(元素1 元素2 元素3)
+
+find_element_by_css_selector(span:nth-child(2))  ----父元素的第二个节点，必须是span元素，span可以变，数字可以变
+
+find_element_by_css_selector(span:nth-of-type(2))  ----父元素的第二个span类型的元素，span可以变，数字可以变
+
+find_element_by_css_selector(span:nth-last-child(2))  -----父元素的倒数第二个span元素，span可以变，数字可以变
+
+find_element_by_css_selector(span:nth-last-of-type(2))  ----父元素的倒数第二个span类型的元素，span可以变，数字可以变
+
+
+find_element_by_css_selector(p:nth-child(even))  ----父元素的基数节点，必须是p元素
+
+find_element_by_css_selector(#t1 p:nth-child(even))  ----父元素是t1的基数后代节点，必须是p元素
+
+
+find_element_by_css_selector(p:nth-child(odd))  ----父元素的偶数节点，必须是p元素
+
+
+frame切换
+browser.switch_to.frame('id'/'name')
+browser.switch_to.frame(browser.find_element_by_css_selector'[属性名=“属性值”]')
+browser.switch_to.default_content  ---切换到外层的frame
+
+
+浏览器窗口切换
+browser.switch_to.window(handle)
+
+返回到前一个窗口，需要先保存前一个窗口的handle，browser.current_window_handle
+然后再browser.switch_to.window(handle)
+
+radio
+# 获取当前选中的元素
+element = wd.find_element_by_css_selector(
+  '#s_radio input[checked=checked]')
+print('当前选中的是: ' + element.get_attribute('value'))
+
+# 点选 小雷老师
+wd.find_element_by_css_selector(
+  '#s_radio input[value="小雷老师"]').click()
+
+
+checkbox
+先把已经选中的选项全部点击一下，确保都是未选状态
+再点击要选择的元素
+
+# 先把 已经选中的选项全部点击一下
+elements = wd.find_elements_by_css_selector(
+  '#s_checkbox input[checked="checked"]')
+
+for element in elements:
+    element.click()
+
+# 再点击 小雷老师
+wd.find_element_by_css_selector(
+  "#s_checkbox input[value='小雷老师']").click()
+
+
+Select单选框
+# 导入Select类
+from selenium.webdriver.support.ui import Select
+
+# 创建Select对象
+select = Select(wd.find_element_by_id("ss_single"))
+
+# 通过 Select 对象选中小雷老师
+select.select_by_visible_text("小雷老师")
+
+
+Select多选框
+# 导入Select类
+from selenium.webdriver.support.ui import Select
+
+# 创建Select对象
+select = Select(wd.find_element_by_id("ss_multi"))
+
+# 清除所有 已经选中 的选项
+select.deselect_all()
+
+# 选择小雷老师 和 小凯老师
+select.select_by_visible_text("小雷老师")
+select.select_by_visible_text("小凯老师")
+
+
+模拟鼠标移动
+from selenium import webdriver
+
+driver = webdriver.Chrome(r'f:\chromedriver.exe')
+driver.implicitly_wait(5)
+
+driver.get('https://www.baidu.com/')
+
+from selenium.webdriver.common.action_chains import ActionChains
+
+ac = ActionChains(driver)
+
+# 鼠标移动到 元素上
+ac.move_to_element(
+    driver.find_element_by_css_selector('[name="tj_briicon"]')
+).perform()
+
+
+
+
+冻结界面
+在开发者工具栏 console 里面执行如下js代码:setTimeout(function(){debugger}, 5000)
+
+
+Alert
+# 打印 弹出框 提示信息
+print(driver.switch_to.alert.text) 
+
+# 点击 OK 按钮
+driver.switch_to.alert.accept()
+# 点击 取消 按钮
+driver.switch_to.alert.dismiss()
+
+prompt 
+
+driver.find_element_by_id('b3').click()
+
+# 获取 alert 对象
+alert = driver.switch_to.alert
+
+# 打印 弹出框 提示信息
+print(alert.text)
+
+# 输入信息，并且点击 OK 按钮 提交
+alert.send_keys('web自动化 - selenium')
+alert.accept()
+
+	
