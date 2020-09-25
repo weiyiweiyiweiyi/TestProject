@@ -1,7 +1,8 @@
 1.安装
  JDK1.8
+ 下载安装androidSDK：https://www.cnblogs.com/dreamhighqiu/p/10989962.html
  androidSDK：
-	1.直接把含有sdk的文件夹放到响应的路径下（/Users/weiyi/android-sdk）（百度搜索关键字adt-bundle-（linux/Mac）下载）
+	1.直接把含有sdk的文件夹放到相应的路径下（/Users/weiyi/android-sdk）（百度搜索关键字adt-bundle-（linux/Mac）下载）
 	2./Users/weiyi/.bash_profile,在这个文件里配置环境变量如下：
 	export ANDROID_HOME=/Users/weiyi/android-sdk
 	export PATH=${PATH}:${ANDROID_HOME}/platform-tools
@@ -47,8 +48,10 @@ adb start-server
 
 
 3.Appium
-下载安装applium
-python3安装Appium-Python-Client：pip install Appium-Python-Client
+python3安装Appium-Python-Client：pip3 install Appium-Python-Client
+下载安装Appium-desktop：https://github.com/appium/appium-desktop/releases
+
+
 //*[@id='kw']
 //*[@class='class_name']
 //*[@name='name']
