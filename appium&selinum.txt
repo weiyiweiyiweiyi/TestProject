@@ -1,6 +1,7 @@
-1.安装
+1.安装androidSDK，用于使用adb命令和电脑模拟器
  JDK1.8
- 下载安装androidSDK：https://www.cnblogs.com/dreamhighqiu/p/10989962.html
+ 下载安装androidSDK
+ 以上参考：https://www.cnblogs.com/dreamhighqiu/p/10989962.html
  androidSDK：
 	1.直接把含有sdk的文件夹放到相应的路径下（/Users/weiyi/android-sdk）（百度搜索关键字adt-bundle-（linux/Mac）下载）
 	2./Users/weiyi/.bash_profile,在这个文件里配置环境变量如下：
@@ -86,7 +87,11 @@ python3安装Appium-Python-Client：pip3 install Appium-Python-Client
 
 
 
+4.安装brew：https://brew.sh/
 
+5.安装Xcode：https://developer.apple.com/download/more/
+
+6.安装Carthage：https://github.com/Carthage/Carthage/releases
 
 
 
