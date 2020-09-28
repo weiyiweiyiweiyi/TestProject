@@ -89,7 +89,7 @@ python3安装Appium-Python-Client：pip3 install Appium-Python-Client
 
 4.安装brew：https://brew.sh/
 
-5.安装Xcode：https://developer.apple.com/download/more/
+5.安装Command Line Tools for Xcode：https://developer.apple.com/download/more/
 
 6.安装Carthage：https://github.com/Carthage/Carthage/releases
 
