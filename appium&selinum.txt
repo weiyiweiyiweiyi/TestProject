@@ -1,7 +1,7 @@
 1.安装androidSDK，用于使用adb命令和电脑模拟器
  JDK1.8
  下载安装androidSDK
- 以上参考：https://www.cnblogs.com/dreamhighqiu/p/10989962.html
+ 以上参考：https://www.cnblogs.com/dreamhighqiu/p/10989962.html（安装了Appiumdesktop就可以不用安装AppiumServer了）
  androidSDK：
 	1.直接把含有sdk的文件夹放到相应的路径下（/Users/weiyi/android-sdk）（百度搜索关键字adt-bundle-（linux/Mac）下载）
 	2./Users/weiyi/.bash_profile,在这个文件里配置环境变量如下：
@@ -50,7 +50,7 @@ adb start-server
 
 3.Appium
 python3安装Appium-Python-Client：pip3 install Appium-Python-Client
-下载安装Appium-desktop：https://github.com/appium/appium-desktop/releases
+下载安装Appium-desktop(安装了Appiumdesktop就可以不用安装AppiumServer了)：https://github.com/appium/appium-desktop/releases
 
 
 //*[@id='kw']
