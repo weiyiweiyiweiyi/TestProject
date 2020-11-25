@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9547697d-c4a5-400f-9634-85859b5406dc" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1io3Ib5n1j4GYVFAtYDd94VwENe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.addPublic_8_V4_SH">
+    <configuration name="addPublic_8_V4_SH" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="appiumWechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/addPublic_8_V4_SH.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="addPublic_8_V4_SZ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="appiumWechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/addPublic_8_V4_SZ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="appiumWechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="appiumWechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in /Users/weiyi/pythonProject1/appiumWechat/test_export.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="appiumWechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_export.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test123" />
+      <item itemvalue="Python.addPublic_8_V4_SZ" />
+      <item itemvalue="Python.addPublic_8_V4_SH" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.Nosetests in /Users/weiyi/pythonProject1/appiumWechat/test_export.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.addPublic_8_V4_SH" />
+        <item itemvalue="Python.addPublic_8_V4_SZ" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test123" />
+        <item itemvalue="Python tests.Nosetests in /Users/weiyi/pythonProject1/appiumWechat/test_export.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9547697d-c4a5-400f-9634-85859b5406dc" name="Default" comment="" />
+      <created>1598413877089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598413877089</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="173" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605062074223">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="752" y="173" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605062074223" />
+    <state x="2252" y="123" width="982" height="776" key="DiffContextDialog" timestamp="1605084717225">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2252" y="123" width="982" height="776" key="DiffContextDialog/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1605084717225" />
+    <state width="1082" height="218" key="GridCell.Tab.0.bottom" timestamp="1606271039721">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1069" height="224" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1602840928371" />
+    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1602571573889" />
+    <state width="1082" height="218" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.973@0.23.1920.973" timestamp="1606271039721" />
+    <state width="1155" height="211" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605596616592" />
+    <state width="1161" height="232" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1605086444861" />
+    <state width="1122" height="400" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.978@1920.23.1920.1057" timestamp="1604885458253" />
+    <state width="1122" height="400" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.980@1920.23.1920.1057" timestamp="1604636277290" />
+    <state width="1122" height="400" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.982@1920.23.1920.1057" timestamp="1604641157415" />
+    <state width="556" height="475" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.984@1920.23.1920.1057" timestamp="1604627245489" />
+    <state width="1082" height="218" key="GridCell.Tab.0.center" timestamp="1606271039721">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1069" height="224" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1602840928371" />
+    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1602571573889" />
+    <state width="1082" height="218" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.973@0.23.1920.973" timestamp="1606271039721" />
+    <state width="1155" height="211" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605596616591" />
+    <state width="1161" height="232" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1605086444861" />
+    <state width="1122" height="400" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.978@1920.23.1920.1057" timestamp="1604885458253" />
+    <state width="1122" height="400" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.980@1920.23.1920.1057" timestamp="1604636277289" />
+    <state width="1122" height="400" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.982@1920.23.1920.1057" timestamp="1604641157414" />
+    <state width="556" height="475" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.984@1920.23.1920.1057" timestamp="1604627245488" />
+    <state width="1082" height="218" key="GridCell.Tab.0.left" timestamp="1606271039720">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1069" height="224" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1602840928371" />
+    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1602571573888" />
+    <state width="1082" height="218" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.973@0.23.1920.973" timestamp="1606271039720" />
+    <state width="1155" height="211" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605596616591" />
+    <state width="1161" height="232" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1605086444860" />
+    <state width="1122" height="400" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.978@1920.23.1920.1057" timestamp="1604885458252" />
+    <state width="1122" height="400" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.980@1920.23.1920.1057" timestamp="1604636277289" />
+    <state width="1122" height="400" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.982@1920.23.1920.1057" timestamp="1604641157414" />
+    <state width="556" height="475" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.984@1920.23.1920.1057" timestamp="1604627245488" />
+    <state width="1082" height="218" key="GridCell.Tab.0.right" timestamp="1606271039721">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1069" height="224" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1602840928371" />
+    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1602571573889" />
+    <state width="1082" height="218" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.973@0.23.1920.973" timestamp="1606271039721" />
+    <state width="1155" height="211" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605596616592" />
+    <state width="1161" height="232" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1605086444861" />
+    <state width="1122" height="400" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.978@1920.23.1920.1057" timestamp="1604885458253" />
+    <state width="1122" height="400" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.980@1920.23.1920.1057" timestamp="1604636277290" />
+    <state width="1122" height="400" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.982@1920.23.1920.1057" timestamp="1604641157414" />
+    <state width="556" height="475" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.984@1920.23.1920.1057" timestamp="1604627245489" />
+    <state width="1093" height="336" key="GridCell.Tab.1.bottom" timestamp="1605259931844">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1093" height="336" key="GridCell.Tab.1.bottom/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605259931844" />
+    <state width="1122" height="315" key="GridCell.Tab.1.bottom/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1604472360664" />
+    <state width="1093" height="336" key="GridCell.Tab.1.center" timestamp="1605259931844">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1093" height="336" key="GridCell.Tab.1.center/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605259931844" />
+    <state width="1122" height="315" key="GridCell.Tab.1.center/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1604472360663" />
+    <state width="1093" height="336" key="GridCell.Tab.1.left" timestamp="1605259931844">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1093" height="336" key="GridCell.Tab.1.left/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605259931844" />
+    <state width="1122" height="315" key="GridCell.Tab.1.left/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1604472360663" />
+    <state width="1093" height="336" key="GridCell.Tab.1.right" timestamp="1605259931844">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1093" height="336" key="GridCell.Tab.1.right/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605259931844" />
+    <state width="1122" height="315" key="GridCell.Tab.1.right/1920.23.1920.1057/0.23.1920.977@1920.23.1920.1057" timestamp="1604472360664" />
+    <state width="574" height="488" key="XDebugger.FullValuePopup" timestamp="1605148966080">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="574" height="488" key="XDebugger.FullValuePopup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605148966080" />
+    <state x="769" y="285" width="792" height="973" key="dock-window-1" timestamp="1605000760729">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="769" y="285" width="792" height="973" key="dock-window-1/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605000760729" />
+    <state x="793" y="158" width="708" height="795" key="dock-window-2" timestamp="1605067011137">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="793" y="158" width="708" height="795" key="dock-window-2/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1605067011137" />
+  </component>
+</project>
