@@ -1,0 +1,8 @@
+# 测试用例数据
+
+name: test_getUserInfo
+path_pwd_login: /login/pwd_login
+path_auth_by_token: /user_auth/auth_by_token
+path_user_info: /users/user_info.json
+password: nbd123456
+tel: 17602894576
