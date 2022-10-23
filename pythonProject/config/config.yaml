@@ -6,6 +6,6 @@ base_params:
   base_app_version_name: 7.0.4
   base_uuid: ed3b0d597c664b138ec72612b7dc2728
   base_url: http://apiv2.nbd.com.cn
-test_data_name:
-  # 对应用例的测试数据，命名规则：类名+方法名
+  test_data_path: ./testData/
+test_data_name: # 对应用例的测试数据，命名规则：类名+方法名
   TestUser_test_getUserInfo: TestUser_test_getUserInfo.yaml

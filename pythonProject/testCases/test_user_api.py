@@ -15,7 +15,7 @@ class TestUserApi:
             "app_version_name": "7.0.3",
             "timestamp": "1665295014",
             "uuid": "ed3b0d597c664b138ec72612b7dc2728",
-            "password": "nbd123456",
+            "password": "nbd12345",
             "tel": "17602894576"
         }
 
@@ -51,8 +51,9 @@ class TestUserApi:
         return res
 
 
-# if __name__ == '__main__':
-#     t = TestUserApi()
-#     t.test_login()
-#     print(t.access_token)
-#     print(t.test_getUserInfo().request.url)
+if __name__ == '__main__':
+    t = TestUserApi()
+    t.test_login()
+    # print(t.access_token)
+    # print(t.test_getUserInfo().request.url)
+    print(t.test_login().json())
