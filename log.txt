@@ -1,0 +1,52 @@
+2022-10-31 18:47:03,655 test_user.py test_getUserInfo INFO http://apiv2.nbd.com.cn/login/pwd_login
+2022-10-31 18:47:03,660 connectionpool.py _new_conn DEBUG Starting new HTTP connection (1): apiv2.nbd.com.cn:80
+2022-10-31 18:47:03,799 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:47:03,906 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:47:03,962 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213223&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NjoxNjM5MDM5MDg3OjE2NjcyMTMyMjQ6eUtkcTJCbFJCUQ%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:47:03,965 test_user.py test_getUserInfo INFO http://apiv2.nbd.com.cn/login/pwd_login
+2022-10-31 18:47:04,025 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:47:04,081 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:47:04,190 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213223&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NzoxNjM5MzY1OTY5OjE2NjcyMTMyMjQ6aDRqSDZSclVQeQ%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:47:04,192 test_user.py test_getUserInfo INFO http://apiv2.nbd.com.cn/login/pwd_login
+2022-10-31 18:47:04,265 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:48:04,363 connectionpool.py _new_conn DEBUG Starting new HTTP connection (1): apiv2.nbd.com.cn:80
+2022-10-31 18:48:04,503 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:48:04,552 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:48:04,605 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213284&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NjoxNjM5MDM5MDg3OjE2NjcyMTMyODQ6dUZoQ1VSYU45cw%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:48:04,660 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:48:04,770 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:48:04,877 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213284&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NzoxNjM5MzY1OTY5OjE2NjcyMTMyODQ6czM0WUJYQ3B1Sw%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:48:04,937 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:49:31,605 connectionpool.py _new_conn DEBUG Starting new HTTP connection (1): apiv2.nbd.com.cn:80
+2022-10-31 18:49:31,725 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:49:31,786 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:49:31,842 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213371&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NjoxNjM5MDM5MDg3OjE2NjcyMTMzNzE6dFB0MlJqRUFsMg%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:49:31,952 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:49:32,058 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:49:32,121 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213371&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NzoxNjM5MzY1OTY5OjE2NjcyMTMzNzI6R2dpekNiYXlxSQ%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:49:32,172 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:52:14,014 connectionpool.py _new_conn DEBUG Starting new HTTP connection (1): apiv2.nbd.com.cn:80
+2022-10-31 18:52:14,149 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:52:14,253 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:52:14,308 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213533&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NjoxNjM5MDM5MDg3OjE2NjcyMTM1MzQ6RW5rbVZjUDZ0OQ%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:52:14,364 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:52:14,412 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:52:14,522 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213533&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NzoxNjM5MzY1OTY5OjE2NjcyMTM1MzQ6dFdUME9wRlNVSw%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:52:14,584 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:53:55,724 connectionpool.py _new_conn DEBUG Starting new HTTP connection (1): apiv2.nbd.com.cn:80
+2022-10-31 18:53:55,900 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:53:55,962 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:53:56,066 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213635&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NjoxNjM5MDM5MDg3OjE2NjcyMTM2MzY6cUR4WE1Yd0pkSQ%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:53:56,177 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 18:53:56,283 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /user_auth/auth_by_token HTTP/1.1" 200 None
+2022-10-31 18:53:56,387 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "GET /users/user_info.json?app_key=d401a38c50a567882cd71cec43201c78&app_version_name=7.0.4&timestamp=1667213635&uuid=ed3b0d597c664b138ec72612b7dc2728&app_token=NzoxNjM5MzY1OTY5OjE2NjcyMTM2MzY6Z0FEUlV5bXRBUA%3D%3D HTTP/1.1" 200 None
+2022-10-31 18:53:56,439 connectionpool.py _make_request DEBUG http://apiv2.nbd.com.cn:80 "POST /login/pwd_login HTTP/1.1" 200 None
+2022-10-31 19:16:06,842 test_user.py test_getUserInfo INFO 登录
+2022-10-31 19:16:06,843 test_user.py test_getUserInfo INFO 登录urlhttp://apiv2.nbd.com.cn/login/pwd_login,参数{'app_key': 'd401a38c50a567882cd71cec43201c78', 'app_version_name': '7.0.4', 'timestamp': 1667214966, 'uuid': 'ed3b0d597c664b138ec72612b7dc2728', 'password': 'nbd123456', 'tel': 17602894576}
+2022-10-31 19:16:07,146 test_user.py test_getUserInfo INFO 登录
+2022-10-31 19:16:07,147 test_user.py test_getUserInfo INFO 登录urlhttp://apiv2.nbd.com.cn/login/pwd_login,参数{'app_key': 'd401a38c50a567882cd71cec43201c78', 'app_version_name': '7.0.4', 'timestamp': 1667214966, 'uuid': 'ed3b0d597c664b138ec72612b7dc2728', 'password': 'nbd123456', 'tel': 19130816460}
+2022-10-31 19:16:07,373 test_user.py test_getUserInfo INFO 登录
+2022-10-31 19:16:07,374 test_user.py test_getUserInfo INFO 登录urlhttp://apiv2.nbd.com.cn/login/pwd_login,参数{'app_key': 'd401a38c50a567882cd71cec43201c78', 'app_version_name': '7.0.4', 'timestamp': 1667214966, 'uuid': 'ed3b0d597c664b138ec72612b7dc2728', 'password': 'nbd12345', 'tel': 19130816460}
+2022-10-31 19:17:20,773 test_user.py test_getUserInfo INFO 登录urlhttp://apiv2.nbd.com.cn/login/pwd_login,参数{'app_key': 'd401a38c50a567882cd71cec43201c78', 'app_version_name': '7.0.4', 'timestamp': 1667215040, 'uuid': 'ed3b0d597c664b138ec72612b7dc2728', 'password': 'nbd123456', 'tel': 17602894576}
+2022-10-31 19:17:21,095 test_user.py test_getUserInfo INFO 登录urlhttp://apiv2.nbd.com.cn/login/pwd_login,参数{'app_key': 'd401a38c50a567882cd71cec43201c78', 'app_version_name': '7.0.4', 'timestamp': 1667215040, 'uuid': 'ed3b0d597c664b138ec72612b7dc2728', 'password': 'nbd123456', 'tel': 19130816460}
+2022-10-31 19:17:21,368 test_user.py test_getUserInfo INFO 登录urlhttp://apiv2.nbd.com.cn/login/pwd_login,参数{'app_key': 'd401a38c50a567882cd71cec43201c78', 'app_version_name': '7.0.4', 'timestamp': 1667215040, 'uuid': 'ed3b0d597c664b138ec72612b7dc2728', 'password': 'nbd12345', 'tel': 19130816460}

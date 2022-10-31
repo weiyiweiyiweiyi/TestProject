@@ -1,6 +1,7 @@
 import pytest
 import requests
 
+from commons.log_utils import get_log
 from commons.yaml_utils import YamlUtils
 from commons.request_utils import RequestUtils
 import time
@@ -10,6 +11,7 @@ import os
 class TestUser:
     # 定义全局变量
     app_token = ""
+    logtool = get_log()
 
     # 获取配置文件的通用参数作为全局变量
     # config_file = "../config/config.yaml"  # 本文件内执行路径
@@ -52,7 +54,7 @@ class TestUser:
             "password": password,
             "tel": tel
         }
-
+        TestUser.logtool.info("登录url{},参数{}".format(url_pwd_login,data_pwd_login))
         # 调用统一请求接口获取响应
         request = RequestUtils()
         res_pwd_login = request.test_sendRequest(method=method_pwd_login, url=url_pwd_login, data=data_pwd_login)
