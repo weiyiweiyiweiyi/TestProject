@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 01 17:16:22 CST 2022","Tue Nov 01 17:16:22 CST 2022","364","testCases","test_user","TestUser","","","test_getUserInfo[caseInfo0]",""
+"passed","Tue Nov 01 17:16:22 CST 2022","Tue Nov 01 17:16:23 CST 2022","368","testCases","test_user","TestUser","","","test_getUserInfo[caseInfo1]",""
+"passed","Tue Nov 01 17:16:23 CST 2022","Tue Nov 01 17:16:23 CST 2022","53","testCases","test_user","TestUser","","","test_getUserInfo[caseInfo2]",""
