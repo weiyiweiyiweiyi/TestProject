@@ -18,8 +18,8 @@ def get_log():
     sh.setFormatter(test_formatter) # 将设置的格式赋给处理器对象
     test_logger.addHandler(sh)  # 将日志信息打印到控制台
 
-    fh.setFormatter(test_formatter) # 将设置的格式赋给处理器对象
-    test_logger.addHandler(fh)  # 将日志信息打印到文件
+    # fh.setFormatter(test_formatter) # 将设置的格式赋给处理器对象
+    # test_logger.addHandler(fh)  # 将日志信息打印到文件
 
     return test_logger
 
