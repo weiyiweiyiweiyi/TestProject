@@ -65,19 +65,19 @@ class TestUser:
 
             # 2.验证token
             url_auth_by_token = TestUser.base_url + path_auth_by_token
+            TestUser.logtool.info("验证token的URL：{}".format(url_auth_by_token))
             method_auth_by_token = "post"
             data_auth_by_token = {
                 "user_token": TestUser.app_token,
                 "timestamp": TestUser.timeStamp
             }
+            TestUser.logtool.info("验证token参数：{}".format(data_auth_by_token))
 
             # 调用统一请求接口获取响应
             res_auth_by_token = request.test_sendRequest(url=url_auth_by_token, method=method_auth_by_token,
                                                          data=data_auth_by_token)
 
-            # TestUser.logtool.info("验证token的URL：{}".format(url_auth_by_token))
-            # TestUser.logtool.info("验证token参数：{}".format(data_auth_by_token))
-            # TestUser.logtool.info("验证token响应：{}".format(res_auth_by_token.json()))
+            TestUser.logtool.info("验证token响应：{}".format(res_auth_by_token.json()))
 
             # 断言
             # assert res_auth_by_token.json()["status_code"] == 1
@@ -85,6 +85,7 @@ class TestUser:
 
             # 3.获取用户信息
             url_user_info = TestUser.base_url + path_user_info
+            TestUser.logtool.info("获取用户信息URL：{}".format(url_user_info))
             method_user_info = "get"
             data_user_info = {
                 "app_key": TestUser.app_key,
@@ -93,11 +94,10 @@ class TestUser:
                 "uuid": TestUser.uuid,
                 "app_token": TestUser.app_token
             }
-            res_user_info = request.test_sendRequest(method=method_user_info, url=url_user_info, params=data_user_info)
+            TestUser.logtool.info("获取用户信息参数：{}".format(data_user_info))
 
-            # TestUser.logtool.info("获取用户信息URL：{}".format(url_user_info))
-            # TestUser.logtool.info("获取用户信息参数：{}".format(data_user_info))
-            # TestUser.logtool.info("获取用户信息响应：{}".format(res_user_info.json()))
+            res_user_info = request.test_sendRequest(method=method_user_info, url=url_user_info, params=data_user_info)
+            TestUser.logtool.info("获取用户信息响应：{}".format(res_user_info.json()))
 
             # 断言
             # assert res_user_info.json()["status_code"] == 1

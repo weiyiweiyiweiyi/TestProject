@@ -1,6 +1,6 @@
 # 测试用例数据
 -
-  name: test_getUserInfo_01
+  name: test_getUserInfo_00
   path_pwd_login: /login/pwd_login
   path_auth_by_token: /user_auth/auth_by_token
   path_user_info: /users/user_info.json
@@ -9,7 +9,7 @@
   validate: # 预期结果
           status_code: 1
 -
-  name: test_getUserInfo_02
+  name: test_getUserInfo_01
   path_pwd_login: /login/pwd_login
   path_auth_by_token: /user_auth/auth_by_token
   path_user_info: /users/user_info.json
@@ -18,11 +18,11 @@
   validate: # 预期结果
         status_code: 1
 -
-  name: test_getUserInfo_03
+  name: test_getUserInfo_02
   path_pwd_login: /login/pwd_login
   path_auth_by_token: /user_auth/auth_by_token
   path_user_info: /users/user_info.json
-  password: nbd123456
+  password: nbd123457
   tel: 19130816460
   validate: # 预期结果
-        status_code: 1
+        status_code: 0
