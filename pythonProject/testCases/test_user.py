@@ -1,11 +1,8 @@
 import pytest
-import requests
-
 from commons.log_utils import get_log
 from commons.yaml_utils import YamlUtils
 from commons.request_utils import RequestUtils
 import time
-import os
 
 
 class TestUser:
@@ -41,10 +38,11 @@ class TestUser:
         tel = caseInfo["tel"]
         validate = caseInfo["validate"]["status_code"]
 
-
         # 1.登录
         # 读取yaml文件的获取请求参数值
         url_pwd_login = TestUser.base_url + path_pwd_login
+        print("\n")
+        TestUser.logtool.info("登录ur：{}".format(url_pwd_login))
         method_pwd_login = "post"
         data_pwd_login = {
             "app_key": TestUser.app_key,
@@ -54,10 +52,12 @@ class TestUser:
             "password": password,
             "tel": tel
         }
-        TestUser.logtool.info("登录url{},参数{}".format(url_pwd_login,data_pwd_login))
+        TestUser.logtool.info("登录参数：{}".format(data_pwd_login))
+
         # 调用统一请求接口获取响应
         request = RequestUtils()
         res_pwd_login = request.test_sendRequest(method=method_pwd_login, url=url_pwd_login, data=data_pwd_login)
+        TestUser.logtool.info("登录响应：{}".format(res_pwd_login.json()))
 
         if res_pwd_login.json()["status_code"] == 1:
             # 响应里的token赋值给全局变量
@@ -74,9 +74,14 @@ class TestUser:
             # 调用统一请求接口获取响应
             res_auth_by_token = request.test_sendRequest(url=url_auth_by_token, method=method_auth_by_token,
                                                          data=data_auth_by_token)
+
+            # TestUser.logtool.info("验证token的URL：{}".format(url_auth_by_token))
+            # TestUser.logtool.info("验证token参数：{}".format(data_auth_by_token))
+            # TestUser.logtool.info("验证token响应：{}".format(res_auth_by_token.json()))
+
             # 断言
             # assert res_auth_by_token.json()["status_code"] == 1
-            assert res_pwd_login.json()["status_code"] == validate
+            assert res_auth_by_token.json()["status_code"] == validate
 
             # 3.获取用户信息
             url_user_info = TestUser.base_url + path_user_info
@@ -90,15 +95,16 @@ class TestUser:
             }
             res_user_info = request.test_sendRequest(method=method_user_info, url=url_user_info, params=data_user_info)
 
+            # TestUser.logtool.info("获取用户信息URL：{}".format(url_user_info))
+            # TestUser.logtool.info("获取用户信息参数：{}".format(data_user_info))
+            # TestUser.logtool.info("获取用户信息响应：{}".format(res_user_info.json()))
+
             # 断言
             # assert res_user_info.json()["status_code"] == 1
-            assert res_pwd_login.json()["status_code"] == validate
-
-            print("login succeed")
+            assert res_user_info.json()["status_code"] == validate
 
         else:
             assert res_pwd_login.json()["status_code"] == validate
-            print("login failed")
 
 # if __name__ == '__main__':
 #     t = TestUser()
